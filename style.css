@@ -23,7 +23,8 @@ strong {
   color: hsl(160deg, 100%, 30%);
 }
 
-header, .card {
+header,
+.card {
   background-color: hsl(0deg, 0%, 100%);
 }
 
@@ -32,7 +33,8 @@ header, .card {
   margin: 0 auto;
 }
 
-.intro-chunk, .card {
+.intro-chunk,
+.card {
   padding-inline: 24px;
 }
 
@@ -41,9 +43,16 @@ header, .card {
   max-width: 463px;
 }
 
+p {
+  padding-block-start: 16px;
+}
+
 .intro-chunk p {
   margin: 0;
-  padding-block-start: 16px;
+}
+
+.card p {
+  margin-block: 0;
 }
 
 .title {
@@ -70,9 +79,4 @@ header, .card {
   padding-inline-start: 32px;
   padding-block: 16px;
   border-block-end: 8px solid hsl(45deg, 100%, 40%);
-}
-
-.card p {
-  margin-block: 0;
-  padding-block-start: 16px;
 }
